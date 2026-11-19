@@ -18,7 +18,7 @@ My personal study notes for the CompTIA Network+ N10-009 exam. I'm working throu
 Objectives: 1.2, 1.6, 2.3
 
 - [00 – Intro: networks, PAN/LAN, converged networks, five nines](01-network-fundamentals/00-intro.md)
-- 01 – Network components *(coming soon)*
+- [01 – Network components: clients, servers, hubs, switches, routers, firewalls, IDS/IPS, NAS/SAN and more](01-network-fundamentals/01-network-components.md)
 - 02 – Network resources: client-server vs. peer-to-peer *(coming soon)*
 - 03 – Network geography: PAN, LAN, CAN, MAN, WAN *(coming soon)*
 - 04 – Wired topologies *(coming soon)*
