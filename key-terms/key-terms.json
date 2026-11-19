@@ -1,0 +1,90 @@
+[
+  {
+    "term": "Network",
+    "definition": "Two or more devices connected to share data",
+    "analogy": "A road system moving cargo",
+    "example": "Laptop and printer on home Wi-Fi",
+    "examTip": "Includes wired and wireless; doesn't require the internet",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "PAN (Personal Area Network)",
+    "definition": "Very short-range network around one person",
+    "analogy": "Whispering to the person next to you",
+    "example": "Smartwatch paired to a phone over Bluetooth",
+    "examTip": "Bluetooth = PAN. Smallest network type.",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "LAN (Local Area Network)",
+    "definition": "Network covering one location, like a home or office",
+    "analogy": "Hallways inside one house",
+    "example": "Office Wi-Fi and Ethernet connecting every desk",
+    "examTip": "Size order: PAN, LAN, CAN, MAN, WAN",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "Switch",
+    "definition": "Connects devices within the same network",
+    "analogy": "Hallways connecting rooms in a building",
+    "example": "The box under a desk with many Ethernet cables",
+    "examTip": "Works inside a LAN",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "Router",
+    "definition": "Connects different networks and directs traffic between them",
+    "analogy": "The mailroom deciding where outgoing letters go",
+    "example": "Home router sending LAN traffic to the internet",
+    "examTip": "Routers connect networks; switches connect devices",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "Modem",
+    "definition": "Converts the ISP's signal into data your network can use (modulator-demodulator)",
+    "analogy": "Loading dock where the building meets the public road",
+    "example": "The cable or fiber box from your ISP",
+    "examTip": "Faces the ISP side; not the same as a router",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "Wireless Access Point (WAP)",
+    "definition": "Lets wireless devices join a wired network",
+    "analogy": "A doorway in from outside",
+    "example": "Wi-Fi unit mounted on an office ceiling",
+    "examTip": "Big part of Objective 2.3",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "Converged Network",
+    "definition": "One network carrying voice, data and video as IP packets",
+    "analogy": "One delivery truck carrying letters, packages and newspapers",
+    "example": "Zoom calls and file downloads on the same office connection",
+    "examTip": "Voice and video need QoS on converged networks",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "Availability / Uptime",
+    "definition": "Percentage of time a network or service is working",
+    "analogy": "Percentage of hours a store is actually open",
+    "example": "Status page showing 99.98% uptime this month",
+    "examTip": "100% isn't realistic; high availability is the goal",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "Five Nines",
+    "definition": "99.999% availability",
+    "analogy": "A store closed only 5 minutes all year",
+    "example": "Carrier-grade phone systems, critical data centers",
+    "examTip": "About 5 minutes downtime per year. Four nines is about 53 minutes.",
+    "section": "01-network-fundamentals/00-intro"
+  },
+  {
+    "term": "SLA (Service Level Agreement)",
+    "definition": "Formal agreement defining expected service levels, like uptime",
+    "analogy": "A written warranty promise",
+    "example": "Cloud provider promising 99.99% uptime or service credits",
+    "examTip": "The SLA is where the uptime target is officially stated",
+    "section": "01-network-fundamentals/00-intro"
+  }
+]
