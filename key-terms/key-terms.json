@@ -86,5 +86,149 @@
     "example": "Cloud provider promising 99.99% uptime or service credits",
     "examTip": "The SLA is where the uptime target is officially stated",
     "section": "domain-1-networking-concepts/0.0-network-basics"
+  },
+  {
+    "term": "OSI Model",
+    "definition": "A 7-layer reference model describing how data moves across a network",
+    "analogy": "A floor map of a building that everyone uses to say where a problem is",
+    "example": "\"That's a Layer 1 issue\" means check the cable",
+    "examTip": "A model, not a protocol suite. Real networks run TCP/IP. Top down: All People Seem To Need Data Processing.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Layer 1: Physical",
+    "definition": "The layer of raw signals over copper, fiber or radio",
+    "analogy": "The road itself",
+    "example": "A bad Ethernet cable or Wi-Fi interference",
+    "examTip": "Cables, signals, hubs. Troubleshoot with cable testers and loopback tests.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Layer 2: Data Link",
+    "definition": "The layer for local device-to-device delivery using MAC addresses",
+    "analogy": "A mail carrier delivering by name tag inside one building",
+    "example": "A switch forwarding a frame to the right port",
+    "examTip": "MAC addresses, frames, switches. The switching layer.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Layer 3: Network",
+    "definition": "The layer that moves data between networks using IP addresses",
+    "analogy": "The full street address that gets a letter to another city",
+    "example": "A router choosing the next hop toward Google",
+    "examTip": "IP addresses, subnet masks, routers, fragmentation. The routing layer.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Layer 4: Transport",
+    "definition": "The layer that gets data from one device to another and handles ports",
+    "analogy": "The post office",
+    "example": "HTTPS traffic using TCP port 443",
+    "examTip": "TCP, UDP, port numbers. The post office layer.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Layer 5: Session",
+    "definition": "The layer that starts, manages and ends communication sessions",
+    "analogy": "Dialing, holding and hanging up a phone call",
+    "example": "A control protocol setting up a connection; tunneling",
+    "examTip": "Start, stop, restart, control protocols, tunneling",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Layer 6: Presentation",
+    "definition": "The layer that formats, encodes and encrypts or decrypts application data",
+    "analogy": "A translator who also unlocks the lockbox",
+    "example": "TLS decrypting HTTPS traffic so the page can display",
+    "examTip": "SSL/TLS encryption and character encoding are Layer 6",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Layer 7: Application",
+    "definition": "The layer of the network services users and apps interact with",
+    "analogy": "The storefront customers see",
+    "example": "A browser using HTTPS; DNS lookups; an FTP client",
+    "examTip": "HTTP/HTTPS, FTP, DNS, POP3",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "MAC Address",
+    "definition": "Media Access Control address, the hardware address of a network card",
+    "analogy": "A name tag sewn onto a device",
+    "example": "3C:22:FB:9A:10:4E",
+    "examTip": "Layer 2. Not related to Apple Macs. Also called DLC address or EUI-48/EUI-64.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "EUI-48 / EUI-64",
+    "definition": "Extended Unique Identifier, standard formats for hardware addresses (48-bit and 64-bit)",
+    "analogy": "Short and long versions of a serial number",
+    "example": "A typical Ethernet MAC address is EUI-48",
+    "examTip": "Layer 2. Another name for MAC-style addresses.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "TCP (Transmission Control Protocol)",
+    "definition": "A Layer 4 protocol that delivers data between devices",
+    "analogy": "Sending a package with tracking",
+    "example": "HTTPS to a website over TCP 443",
+    "examTip": "Layer 4. Details in 1.4.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "UDP (User Datagram Protocol)",
+    "definition": "A Layer 4 protocol that delivers data between devices",
+    "analogy": "Dropping a postcard in the mailbox",
+    "example": "DNS lookups commonly use UDP",
+    "examTip": "Layer 4. Details in 1.4.",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Fragmentation",
+    "definition": "Splitting data into smaller pieces so it fits through a network, then reassembling it",
+    "analogy": "Taking furniture apart to fit through a narrow door, then rebuilding it",
+    "example": "A large packet split to cross a link that only allows smaller packets",
+    "examTip": "IP fragmentation happens at Layer 3",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "SSL / TLS",
+    "definition": "Protocols that encrypt data between apps (TLS is the modern replacement for SSL)",
+    "analogy": "A lockbox only the two ends have keys to",
+    "example": "The padlock icon on an HTTPS site",
+    "examTip": "Layer 6 (Presentation) on the exam",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Encapsulation",
+    "definition": "Each layer wrapping the data from the layer above with its own header",
+    "analogy": "Russian nesting dolls, or letter, envelope, box, truck",
+    "example": "App data inside TCP inside IP inside an Ethernet frame",
+    "examTip": "Sender wraps going down; receiver unwraps going up",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "PDU (Protocol Data Unit)",
+    "definition": "The name for a chunk of data at a given layer",
+    "analogy": "The same cargo called a package, pallet or container depending on where it is",
+    "example": "Segment (L4), Packet (L3), Frame (L2), Bits (L1)",
+    "examTip": "Some People Fear Birthdays: Segment, Packet, Frame, Bits",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Wireshark",
+    "definition": "A free protocol analyzer that captures traffic and decodes it by layer",
+    "analogy": "An X-ray machine for network traffic",
+    "example": "Filtering tcp.port == 443 to inspect HTTPS traffic",
+    "examTip": "A protocol analyzer / packet capture tool (more in 5.5)",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
+  },
+  {
+    "term": "Loopback Test",
+    "definition": "Sending a signal out of a port and right back into it to confirm the hardware works",
+    "analogy": "Talking into a microphone and hearing yourself through the speaker",
+    "example": "A loopback plug on a network card or switch port",
+    "examTip": "A Layer 1 troubleshooting technique",
+    "section": "domain-1-networking-concepts/1.1-understanding-the-osi-model"
   }
 ]

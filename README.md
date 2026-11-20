@@ -24,7 +24,7 @@ My personal study notes for the CompTIA Network+ N10-009 exam, following Profess
 ## Domain 1.0 – Networking Concepts
 
 ### 1.1 – The OSI Model
-- [ ] Understanding the OSI Model *(13:51)*
+- [x] [Understanding the OSI Model](domain-1-networking-concepts/1.1-understanding-the-osi-model.md) *(13:51)*
 
 ### 1.2 – Network Appliances and Applications
 - [ ] Networking Devices *(14:31)*

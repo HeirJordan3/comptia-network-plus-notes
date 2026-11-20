@@ -17,6 +17,7 @@ This repo holds my CompTIA Network+ (N10-009) study notes, following Professor M
 - A practical example on a real network or in a dev environment.
 - What CompTIA is likely to test, plus common exam traps and mix-ups.
 - Conversational and easy to scan: short sections, no walls of text.
+- Add Mermaid diagrams (```mermaid code blocks, which GitHub renders) wherever a picture helps: data flows, device chains, comparisons, size ladders. Keep them small and simple.
 - End with a **Key Terms** section. Each term gets: Term, Analogy, Example, Exam tip (port numbers, OSI layer, etc. where relevant).
 
 ## Rules
